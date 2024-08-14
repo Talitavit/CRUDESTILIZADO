@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: initial;
+    background: linear-gradient( 90deg, rgb(241,33,85)0%, purple 100%);
+    justify-content: space-between;
+ 
+}
+
+footer {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background: purple;
+    width: 220vh;
+
+}
+
+
+header {
+    background-color: #092542;
+    color: #ffffff;
+    padding: 4em 0;
+    text-align: center;
+}
+.main-title{
+    text-align: center;
+    color:#ffffff;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    height: 480px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    background-color: #fdbcf4;
+    border-radius: 8px;
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9a2d0;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+td a{
+    background-color: rgb(241,33,85);
+    padding: 4px 4px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td a:hover {
+    background-color: #b300a4;
+}
+
+td a:active {
+    transform: scale(0.9);
+}
+
+
+th{
+    border-bottom: #bb9fb7 1px solid;
+}
+
+
+h2 {
+    color: #ddeeff;
+    text-align: center;
+    height: 5vb;
+    font-family: 'roboto' , sans-serif
+}
+
+.wrapper {
+    background-color: #fdbcf4;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(241,33,85);
+    color: #ffffff;
+    padding: 0.75em 1.5em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #b300a4;
+}
+
+#listaLivros {
+    margin-top: 2em;
+}
+
+#listaLivros ul {
+    list-style: none;
+    padding: 0;
+}
+
+#listaLivros ul li {
+    background-color: #ffffff;
+    margin: 0.5em 0;
+    padding: 1em;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
